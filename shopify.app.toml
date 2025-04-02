@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "3eb1879858738cea2f0475f0dc89ebd7"
-application_url = "https://example.com/"
+application_url = "https://shopify-hideprice.onrender.com/"
 embedded = true
 name = "hide-price"
 handle = "hide-price-12"
@@ -25,7 +25,13 @@ api_version = "2025-01"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://shopify-hideprice.onrender.com/api/auth" ]
 
 [pos]
 embedded = false
+
+[extensions]
+  [[extensions.ui]]
+    type = "admin_page"
+    name = "App Settings"
+    url = "/admin"
