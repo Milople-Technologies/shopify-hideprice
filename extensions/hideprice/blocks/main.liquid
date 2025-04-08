@@ -1,0 +1,16 @@
+<div id="hide-price-message" style="display:none;">
+  {{ settings.hide_price_message }}
+</div>
+
+<script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+  "name": "Hide Price Block",
+  "target": "section",
+  "settings": [],
+  "enabled_on": {
+    "templates": ["product", "collection"]
+  }
+}
+{% endschema %}

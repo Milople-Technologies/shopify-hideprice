@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "3eb1879858738cea2f0475f0dc89ebd7"
-application_url = "https://growing-versions-rise-variations.trycloudflare.com"
+application_url = "https://pay-bookstore-mph-failure.trycloudflare.com"
 embedded = true
 name = "hide-price"
 handle = "hide-price-12"
@@ -28,9 +28,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://growing-versions-rise-variations.trycloudflare.com/auth/callback",
-  "https://growing-versions-rise-variations.trycloudflare.com/auth/shopify/callback",
-  "https://growing-versions-rise-variations.trycloudflare.com/api/auth/callback"
+  "https://pay-bookstore-mph-failure.trycloudflare.com/auth/callback",
+  "https://pay-bookstore-mph-failure.trycloudflare.com/auth/shopify/callback",
+  "https://pay-bookstore-mph-failure.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]

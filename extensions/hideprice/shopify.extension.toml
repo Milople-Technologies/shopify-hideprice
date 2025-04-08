@@ -1,0 +1,7 @@
+name = "hideprice"
+type = "theme_app_extension"
+
+[settings]
+fields = [
+  { type = "text", id = "hide_price_message", label = "Hide Price Message", default = "Login to see the price" }
+]
